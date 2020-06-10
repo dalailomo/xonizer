@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: #ea4fa3;
+    color: yellow;
+    background-image: url('./bg.png');
+    background-blend-mode: overlay;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 100vh;
+    height: 130px;
+    resize: none;
+    padding: 14px;
+    max-width: 100vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+    max-width: 80vw;
+    border-width: medium;
+    border-color: blue;
+}
+
+
+td {
+    display: flex;
+    justify-content: center;
+}
+
+.xonised {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 14px;
+    max-width: 90vw;
+}
+

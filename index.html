@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="./src.js"></script>
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="app">
+            <table>
+                <tr>
+                    <td>
+                        <img height="150px" src="./ie.gif" />
+                        <img height="180px" src="./welcome-to-my-site.gif" />
+                        <img height="150px" src="./ie.gif" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><p class="xonised" v-html="xoni"></p></td>
+                </tr>
+
+                <tr>
+                    <td><textarea v-model="phrase"></textarea></td>
+                </tr>
+
+                <tr><td>
+                    <img width="400px" src="./uc.gif" />
+                </td></tr>
+            </table>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
